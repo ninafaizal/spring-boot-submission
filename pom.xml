@@ -9,6 +9,7 @@
 		<org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
 	</properties>
     <modules>
+		<module>Backend_Util</module>
 		<module>MyDemo</module>
 		<module>MyBank</module>
     </modules>
