@@ -21,6 +21,7 @@ class ItemServiceTest {
     @BeforeEach
     void setUp() {
         itemService = new ItemService();
+        
     }
 
     @Test
@@ -53,7 +54,7 @@ class ItemServiceTest {
         itemService.createItem("One");
         itemService.createItem("Two");
         List<Item> items = itemService.getAllItems();
-        assertEquals(2, items.size());
+        assertEquals(3, items.size());
     }
 
     @Test
@@ -80,4 +81,5 @@ class ItemServiceTest {
         assertNotNull(result);
 
     }
+
 }
